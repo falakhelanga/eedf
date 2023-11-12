@@ -16,12 +16,13 @@
   }
 }
 
+@media (min-width: 768px) {
+  .hero_clip_path {
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: "Montserrat", sans-serif;
+  color: #676767;
+  overflow-x: hidden;
 }
